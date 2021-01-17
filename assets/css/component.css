@@ -1,0 +1,27 @@
+:root {
+  --nue-bg-color: #558783;
+  --nue-txt-color: #eee;
+  --nue-button-edge-light: #fff;
+  --nue-button-edge-shadow: #fff;
+}
+
+.nue-body {
+  background-color: var(--nue-bg-color);
+  padding: 40px;
+}
+
+.main-text {
+  font-size: 20px;
+}
+
+.nue-button {
+  border-radius: 20px;
+  background-color: var(--nue-bg-color);
+  box-shadow:
+    40px 40px 90px var(--nue-button-edge-shadow),
+    -40px -40px 90px var(--nue-button-edge-light);
+  color: var(--nue-txt-color);
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}

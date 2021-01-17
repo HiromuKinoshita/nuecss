@@ -1,0 +1,29 @@
+{
+  "name": "nuecss",
+  "version": "0.0.1",
+  "description": "nuecss is css framework based on neumorphism.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "yarn run browser-sync start --server --files *"
+  },
+  "repository": "git+https://github.com/HiromuKinoshita/nuecss.git",
+  "keywords": [
+    "css",
+    "framework",
+    "neumorphism"
+  ],
+  "author": "HiromuKinoshita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HiromuKinoshita/nuecss/issues"
+  },
+  "homepage": "https://github.com/HiromuKinoshita/nuecss#readme",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "browser-sync": {
+    "startPath": "/samples/index.html"
+  }
+}
